@@ -12,6 +12,7 @@
     .container{
         display: flex;
         gap: 24px;
+        
 
         &--image-left{
             flex-direction: row-reverse;
@@ -35,6 +36,7 @@
     }
 
     @media (max-width: 640px){
+        overflow-x: hidden;
         .container{
             display: block;
         }
@@ -44,5 +46,9 @@
             margin: 24px auto 0;
             display: block;
         }
+    }
+
+    @media (max-width: 1024px){
+        overflow-x: hidden;
     }
 }
