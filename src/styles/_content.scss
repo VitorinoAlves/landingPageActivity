@@ -1,0 +1,48 @@
+.content{
+    padding: 24px;
+
+    &--blue-to-purple{
+        background: linear-gradient(180deg, rgb(9,9,121), rgb(115, 97, 219));
+    }
+
+    &--purple-to-blue{
+        background: linear-gradient(180deg, rgb(115, 97, 219), rgb(9,9,121));
+    }
+
+    .container{
+        display: flex;
+        gap: 24px;
+
+        &--image-left{
+            flex-direction: row-reverse;
+        }
+    }
+    
+    &__text{
+        color: #fff;
+        &__title{
+            margin-bottom: 12px;
+            font-size: 28px;
+        }
+
+        &__description{
+            font-size: 18px;
+        }
+    }
+
+    &__image{
+        height: 360px;
+    }
+
+    @media (max-width: 640px){
+        .container{
+            display: block;
+        }
+
+        &__image{
+            height: 240px;
+            margin: 24px auto 0;
+            display: block;
+        }
+    }
+}

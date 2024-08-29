@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="./styles/main.scss">
+    <title>Aniversário</title>
+</head>
+<body>
+    <header class="hero">
+        <div class="container">
+            <img src="./images/cakeIcon.png" class="hero__icon" alt="Icone de bolo em um calendário.">
+            <p class="hero__text">Meu aniversário começa em: <span id="countdown">00d 0h 0m 00s</span></p>
+
+            <div class="info">
+                <ul class="info__list">
+                    <li class="info__list__item">
+                        <b>Local</b>
+                        Rua exemplo teste, 123 - Bairro teste, Cidade/WW.
+                    </li>
+                    <li class="info__list__item">
+                        <b>Data</b>
+                        Dia 25 de Fevereiro de 2025 - 19:00h
+                    </li>
+                    <li class="info__list__item">
+                        <b>Confirmação de presença</b>
+                        Favor confirmar presença até o dia 20/02/2024
+                    </li>
+                    <button>Confirmar presença</button>
+                </ul>
+            </div>
+        </div>
+    </header>
+
+    <section class="content content--blue-to-purple">
+        <div class="container" data-aos="fade-right">
+            <div class="content__text">
+                <h2 class="content__text__title">Cardápio Geral</h2>
+                <p class="content__text__description">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nulla reiciendis a obcaecati magni impedit fuga, mollitia possimus? Esse officiis, veritatis perspiciatis molestias, placeat mollitia sunt fugiat id a iste reprehenderit.</p>    
+            </div>
+            <img class="content__image" src="./images/imagemBolo.jpg" alt="Imagem de bolo">
+        </div>
+    </section>
+
+    <section class="content content--purple-to-blue">
+        <div class="container container--image-left" data-aos="fade-left">
+            <div class="content__text">
+                <h2 class="content__text__title">Cardápio Vegetariano</h2>
+                <p class="content__text__description">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nulla reiciendis a obcaecati magni impedit fuga, mollitia possimus? Esse officiis, veritatis perspiciatis molestias, placeat mollitia sunt fugiat id a iste reprehenderit.</p>    
+            </div>
+            <img class="content__image" src="./images/imagemBolo.jpg" alt="Imagem de bolo">
+        </div>
+    </section>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script src="./scripts/main.js"></script>
+</body>
+</html>
